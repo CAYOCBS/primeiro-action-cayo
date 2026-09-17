@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: Dizer ola
         run: echo "meu nome é cayo."
+      - name: Dizer bom dia 
+        run: echo "estou no quinto ano da Faculdade."
