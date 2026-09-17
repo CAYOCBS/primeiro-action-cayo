@@ -1,10 +1,12 @@
 name: Ola Mundo
 on: workflow_dispatch
 jobs:
-  minha-tarefa:
+  dispatch:
     runs-on: ubuntu-latest
     steps:
       - name: Dizer data
         run: date 
       - name: Dizer commit 
         run: echo "Commit feito por ${{ github.actor}}"
+      - name: Dizer commit 
+        run: echo "nova forma de disparar o workflow"
