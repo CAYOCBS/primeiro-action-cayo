@@ -4,7 +4,7 @@ jobs:
   saudacao:
     runs-on: ubuntu-latest
     steps:
-      - name: Dizer ola
+      - name: Dizer data
         run: date 
-      - name: Dizer bom dia 
-        run: echo "estou no quinto ano da Faculdade."
+      - name: Dizer commit 
+        run: echo "Commit feito por ${{ github.actor}}"
