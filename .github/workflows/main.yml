@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dizer ola
-        run: echo "meu nome é cayo."
+        run: date 
       - name: Dizer bom dia 
         run: echo "estou no quinto ano da Faculdade."
